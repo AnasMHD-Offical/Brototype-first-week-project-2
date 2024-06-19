@@ -47,6 +47,7 @@ header {
 .nav img{
     width: 400px;
     margin-top: 20px;
+    cursor: pointer;
 }
 .nav-bar{
     margin: 20px;
@@ -70,9 +71,41 @@ header {
 main{
     width: 100%;
     height: 80vh;
-    background: url(Assets/order-img-1.jpg);
+    background: url(Assets/order-img-2.jpg);
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+main h2{
+    font-size: 6rem;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.text{
+    background: url() no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip:text;
+    background-clip:text; 
+    font-family:Totto-ramen-2,sans-serif;
+    font-size:10em;
+    padding:0;
+    margin:0;
+    text-align:center;
+    -webkit-text-stroke: 0.5px #fff;
+}
+.more-img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    
 }
 .gif-body{
     background: var(--second-bg-color);
@@ -132,6 +165,12 @@ main{
 .order-img{
     width: 377px;
     height: 284px;
+}
+.order-img:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+    transition: all .5s ease;
+    filter: drop-shadow(3px 3px 3px var(--primary-font-color));
 }
 .footer-img{
     margin-top: 100px;
