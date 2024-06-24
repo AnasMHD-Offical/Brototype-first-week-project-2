@@ -23,6 +23,7 @@ body{
 }
 header {
     position:fixed;
+    z-index: 9999;
     top: 0;
     display: flex;
     justify-content: center;
@@ -171,12 +172,6 @@ main h2{
 .order-img{
     width: 377px;
     height: 284px;
-}
-.order-img:hover{
-    transform: scale(1.1);
-    border-radius: 20px;
-    transition: all .5s ease;
-    filter: drop-shadow(3px 3px 3px var(--primary-font-color));
 }
 .footer-img{
     margin-top: 100px;
